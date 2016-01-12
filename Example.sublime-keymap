@@ -1,0 +1,31 @@
+[
+    // prompt for custom amount of fish
+    {
+        "keys": ["ctrl+e", "ctrl+e"],
+        "command": "fish_tank_custom",
+    },
+
+    // hard-coded fish counts
+    {
+        "keys": ["ctrl+e", "ctrl+1"],
+        "command": "fish_tank",
+        "args": {"count": 6},
+    },
+    {
+        "keys": ["ctrl+e", "ctrl+2"],
+        "command": "fish_tank",
+        "args": {"count": 16},
+    },
+    {
+        "keys": ["ctrl+e", "ctrl+3"],
+        "command": "fish_tank",
+        "args": {"count": 40},
+    },
+
+    // fish counts that scale with file size (higher multiplier = more fish)
+    {
+        "keys": ["ctrl+e", "ctrl+0"],
+        "command": "fish_tank",
+        "args": {"count_multiplier": 1.5},
+    },
+]

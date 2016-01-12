@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "Fish Tank: Custom",
+        "command": "fish_tank_custom",
+    },
+    {
+        "caption": "Fish Tank: Sparse",
+        "command": "fish_tank",
+        "args": {"count_multiplier": 0.15},
+    },
+    {
+        "caption": "Fish Tank: Normal",
+        "command": "fish_tank",
+        "args": {"count_multiplier": 0.5},
+    },
+    {
+        "caption": "Fish Tank: Dense",
+        "command": "fish_tank",
+        "args": {"count_multiplier": 0.85},
+    },
+    {
+        "caption": "Fish Tank: Fishpocalypse",
+        "command": "fish_tank",
+        "args": {"count_multiplier": 3},
+    },
+]

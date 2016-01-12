@@ -1,0 +1,18 @@
+{
+    // The refresh wait time is not constant;
+    //   it varies sinosoudally:
+    //   wait_time(t) = average_wait + max_wait_deviation * sin(2*pi*(t/cycle_length))
+
+    "average_wait":       300, // milliseconds
+    "max_wait_deviation": 150, // milliseconds
+    "cycle_length":       100, // simulation steps
+
+    // Roughly means how quickly the fish change their individual moods.
+    //   Higher = more volatile.
+    //   Must be between 0 and 1
+    "vitality_change_multiplier": 0.25,
+
+    "min_fish_length": 2,
+    "max_fish_length": 8,
+    "colors": ["comment", "storage", "keyword", "constant"],
+}

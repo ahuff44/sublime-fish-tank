@@ -13,14 +13,17 @@
                         "caption": "FishTank",
                         "children": [
                             {
-                                "caption": "Settings Default",
+                                "caption": "-"
+                            }
+                            {
+                                "caption": "Settings – Default",
                                 "args": {
                                     "file": "${packages}/FishTank/FishTank.sublime-settings"
                                 },
                                 "command": "open_file"
                             },
                             {
-                                "caption": "Settings User",
+                                "caption": "Settings – User",
                                 "args": {
                                     "file": "${packages}/User/FishTank.sublime-settings"
                                 },
@@ -29,6 +32,13 @@
                             {
                                 "caption": "-"
                             }
+                            {
+                                "caption": "View Example Keymap",
+                                "args": {
+                                    "file": "${packages}/FishTank/Example.sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
                         ]
                     }
                 ]
